@@ -4,7 +4,19 @@ Now that you’ve created a Salesforce DX project, what’s next? Here are some 
 
 ## How Do You Plan to Deploy Your Changes?
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+To setup this project asap you can install the unlocked package version using:
+
+sfdx force:package:install --wait 10 --publishwait 10 --package vehicleinformation@1.0.0-1 -k vehicle1234 -r -u yourTargetOrgAlias
+
+or you can install the unlocked package using your org url https://MyDomainName.lightning.force.com//packagingSetupUI/ipLanding.app?apvId=04t5e000000zTnjAAE
+
+You can check the latest version name or id on sfdx-projec.json
+
+You can load some data using the data import wizard. There is a csv file called data/vehicle_file.csv for this purpose.
+
+You all set.
+
+Happy testing!
 
 ## Configure Your Salesforce DX Project
 

@@ -1,0 +1,20 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "package": "products",
+      "versionName": "Version 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "default": true,
+      "versionDescription": "My Package"
+    }
+  ],
+  "name": "product-code",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "57.0",
+  "packageAliases": {
+    "products": "0Ho5e00000000mDCAQ",
+    "products@1.0.0-1": "04t5e000000aVmsAAE"
+  }
+}
